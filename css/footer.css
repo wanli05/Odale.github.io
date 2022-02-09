@@ -1,0 +1,67 @@
+        /* footer区域 */
+        
+        footer {
+            height: 270px;
+            /* background-color: pink; */
+            margin-top: 100px;
+        }
+        
+        .footer-in {
+            padding: 30px;
+        }
+        
+        .footer-l {
+            float: left;
+            font-size: 12px;
+            line-height: 18px;
+            color: #999;
+            margin-top: 20px;
+        }
+        
+        .footer-l a {
+            display: block;
+            width: 140px;
+            height: 33px;
+            font-size: 16px;
+            color: #87CEEB;
+            text-align: center;
+            line-height: 33px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            transition: all 0.6s;
+        }
+        
+        .footer-l a:last-child {
+            border: 1px solid #87CEEB;
+        }
+        
+        .footer-l a:hover {
+            color: #fff;
+            background-color: #87CEEB;
+        }
+        
+        .footer-r {
+            float: right;
+        }
+        
+        .footer-r dl {
+            float: right;
+            margin-right: 125px;
+        }
+        
+        .footer-r dt {
+            font-size: 16px;
+            color: #333;
+            height: 30px;
+        }
+        
+        .footer-r dd {
+            font-size: 14px;
+            height: 27px;
+        }
+        
+        .footer-r dd a:hover {
+            color: #87CEEB;
+            text-decoration: underline;
+        }
+        /* footer区域終わり */

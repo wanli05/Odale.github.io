@@ -1,0 +1,82 @@
+/* head区域 */
+
+body {
+    /* background-color: #f3f5f7; */
+}
+
+header {
+    height: 100px;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+
+nav {
+    width: 1440px;
+    height: 42px;
+    margin: 30px auto 0;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 50px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    padding: 0 15px;
+    display: block;
+    height: 42px;
+    font-size: 16px;
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid #87CEEB;
+}
+
+.search {
+    float: right;
+    width: 410px;
+    height: 38px;
+    border: 1px solid #87CEEB;
+}
+
+.search input[type=text] {
+    /* background-color: pink; */
+    width: 360px;
+    height: 38px;
+    padding-left: 20px;
+    float: left;
+    outline: 0;
+}
+
+.search input[type=submit] {
+    width: 50px;
+    height: 38px;
+    background-color: #87CEEB;
+    float: left;
+    background: #87CEEB url(../images/search.png) center center no-repeat;
+}
+
+.personal {
+    float: right;
+    height: 42px;
+    line-height: 42px;
+    margin-right: 0 15px 0 35px;
+}
+
+.personal img {
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+
+/* head区域終わり */

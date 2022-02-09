@@ -1,0 +1,41 @@
+        /* CSS初期化 */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .clearfix:before,
+        .clearfix:after {
+            display: table;
+            content: "";
+        }
+        
+        .clearfix:after {
+            clear: both;
+        }
+        
+        .clearfix {
+            *zoom: 1;
+        }
+        
+        a {
+            color: #050505;
+            text-decoration: none;
+        }
+        
+        input {
+            border: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            /* banner区域の公共宣言 */
+            width: 1250px;
+            margin: 0 auto;
+        }
+        /* CSS初期化終わり */
